@@ -367,12 +367,12 @@ async def main():
 
     tests = [
         # ("1. Model Invoke",       test_1_invoke),
-        ("2. Streaming",          test_2_streaming),
+        # ("2. Streaming",          test_2_streaming),
         # ("3. Batch",              test_3_batch),
         # ("4. Tool Calling",       test_4_tool_calling),
         # ("5. Structured Output",  test_5_structured_output),
         # ("6. Agent + Tools",      test_6_agent_with_tools),
-        # ("7. Short-term Memory",  test_7_memory),
+        ("7. Short-term Memory",  test_7_memory),
         # ("8. MCP Integration",    test_8_mcp),
     ]
 
